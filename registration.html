@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <style>
+      .y{
+
+       background-color: aliceblue; font-size: 20px;
+      }
+      
+    </style>
+    <body style="text-align: center; background-image: url(/2.jpg); background-size: cover;">
+      <div class="main">
+        <div class="register">
+          <h2 style="background-color: aliceblue; font-size: 50px;" >Registration Form</h2>
+          <form  style="border-style:solid; border-width: 20px;" id="register" method="post">
+            <br>
+            <label style="color: aliceblue;">Name :</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+            <br /><br />
+            <label style="color: aliceblue;">Password :</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+            <br /><br />
+            <label style="color: aliceblue;">Confirm Password :</label>
+            <input
+              type="password"
+              id="confirm_password"
+              placeholder="confirm password"
+            />
+            <br><br>
+            <label style="color: aliceblue;">Phone Number :</label>
+            <input
+              type="phone"
+              id="phone_number"
+              placeholder="+919234567893"
+            />
+            <br /><br />
+            <label style="color: aliceblue;">Email id :</label>
+            <input type="email" id="Email id" placeholder="abcd@gmail.com" />
+            <br /><br />
+            <label style="color: aliceblue;"> Gender :</label>
+            <br /><br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender" id="Male" />
+            &nbsp;
+            <span  style="color: aliceblue;" id="Male">Male</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender" id="Female" />
+            &nbsp;
+            <span  style="color: aliceblue;" id="Female">Female</span>
+            <br /><br />
+            <label style="color: aliceblue;">Date of Birth :</label>
+            <input type="date" id="date_of_birth" max="2000-12-31" />
+            <br /><br />
+            <label style="color: aliceblue;"> Languages Known :</label>
+            <br /> <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Languages_known" id="Engish" />
+            &nbsp;
+            <span  style="color: aliceblue;" id="Engish">English</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Languages_known" id="Telugu" />
+            &nbsp;
+            <span style="color: aliceblue;" id="Telugu">Telugu</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Languages_known" id="Hindi" />
+            &nbsp;
+            <span style="color: aliceblue;" id="Hindi">Hindi</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Languages_known" id="Tamil" />
+            &nbsp;
+            <span style="color: aliceblue;" id="Tamil">Tamil</span>
+            <br /><br />
+            <label style="color: aliceblue;"> Choose your continent :</label>
+            <select class="continent">
+              <option>Asia</option>
+              <option>Europe</option>
+              <option>North America</option>
+              <option>South America</option>
+              <option>Africa</option>
+              <option>Australia</option>
+            </select>
+            <BR></BR>
+            <a href="http://127.0.0.1:5500/login.html" target="_blank" class="y">already had an account LOGIN?</a>
+            <br><br>
+            <input type="submit" name="submit" value="submit"> 
+            <input type="reset" name="reset" value="reset">
+            
+          </form>
+        </div>
+      </div>
+      <!--end main-->
+    </body>
+  </head>
+</html>
